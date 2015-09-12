@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A48FF610-D593-47D2-8A08-C2A7C6366A7E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FTPUserGenerator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D077C9E6111BA20978FE397CDE38382303666892</key>
+		<string>https://github.com/s11113153/FTPUserGenerator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FTPUserGenerator.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D077C9E6111BA20978FE397CDE38382303666892</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/s11113153/FTPUserGenerator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D077C9E6111BA20978FE397CDE38382303666892</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D077C9E6111BA20978FE397CDE38382303666892</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FTPUserGenerator</string>
+		</dict>
+	</array>
+</dict>
+</plist>
