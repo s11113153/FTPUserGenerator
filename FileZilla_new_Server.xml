@@ -1,0 +1,3262 @@
+<FileZillaServer>
+	<Settings>
+		<Item name="Serverports" type="string">21</Item>
+		<Item name="Number of Threads" type="numeric">4</Item>
+		<Item name="Maximum user count" type="numeric">0</Item>
+		<Item name="Timeout" type="numeric">120</Item>
+		<Item name="No Transfer Timeout" type="numeric">600</Item>
+		<Item name="Allow Incoming FXP" type="numeric">0</Item>
+		<Item name="Allow outgoing FXP" type="numeric">0</Item>
+		<Item name="No Strict In FXP" type="numeric">0</Item>
+		<Item name="No Strict Out FXP" type="numeric">0</Item>
+		<Item name="Login Timeout" type="numeric">60</Item>
+		<Item name="Show Pass in Log" type="numeric">0</Item>
+		<Item name="Custom PASV IP type" type="numeric">0</Item>
+		<Item name="Custom PASV IP" type="string"/>
+		<Item name="Custom PASV min port" type="numeric">0</Item>
+		<Item name="Custom PASV max port" type="numeric">0</Item>
+		<Item name="Initial Welcome Message" type="string">%v
+      written by Tim Kosse (Tim.Kosse@gmx.de)
+      Please visit http://sourceforge.net/projects/filezilla/</Item>
+		<Item name="Admin port" type="numeric">14147</Item>
+		<Item name="Admin Password" type="string"/>
+		<Item name="Admin IP Bindings" type="string"/>
+		<Item name="Admin IP Addresses" type="string"/>
+		<Item name="Enable logging" type="numeric">0</Item>
+		<Item name="Logsize limit" type="numeric">0</Item>
+		<Item name="Logfile type" type="numeric">0</Item>
+		<Item name="Logfile delete time" type="numeric">0</Item>
+		<Item name="Use GSS Support" type="numeric">0</Item>
+		<Item name="GSS Prompt for Password" type="numeric">0</Item>
+		<Item name="Download Speedlimit Type" type="numeric">0</Item>
+		<Item name="Upload Speedlimit Type" type="numeric">0</Item>
+		<Item name="Download Speedlimit" type="numeric">10</Item>
+		<Item name="Upload Speedlimit" type="numeric">10</Item>
+		<Item name="Buffer Size" type="numeric">32768</Item>
+		<Item name="Custom PASV IP server" type="string">http://ip.filezilla-project.org/ip.php</Item>
+		<Item name="Use custom PASV ports" type="numeric">0</Item>
+		<Item name="Mode Z Use" type="numeric">0</Item>
+		<Item name="Mode Z min level" type="numeric">1</Item>
+		<Item name="Mode Z max level" type="numeric">9</Item>
+		<Item name="Mode Z allow local" type="numeric">0</Item>
+		<Item name="Mode Z disallowed IPs" type="string"/>
+		<Item name="IP Bindings" type="string">*</Item>
+		<Item name="IP Filter Allowed" type="string"/>
+		<Item name="IP Filter Disallowed" type="string"/>
+		<Item name="Hide Welcome Message" type="numeric">0</Item>
+		<Item name="Enable SSL" type="numeric">0</Item>
+		<Item name="Allow explicit SSL" type="numeric">1</Item>
+		<Item name="SSL Key file" type="string"/>
+		<Item name="SSL Certificate file" type="string"/>
+		<Item name="Implicit SSL ports" type="string">990</Item>
+		<Item name="Force explicit SSL" type="numeric">0</Item>
+		<Item name="Network Buffer Size" type="numeric">65536</Item>
+		<Item name="Force PROT P" type="numeric">0</Item>
+		<Item name="SSL Key Password" type="string"/>
+		<Item name="Allow shared write" type="numeric">0</Item>
+		<Item name="No External IP On Local" type="numeric">1</Item>
+		<Item name="Active ignore local" type="numeric">1</Item>
+		<Item name="Autoban enable" type="numeric">0</Item>
+		<Item name="Autoban attempts" type="numeric">10</Item>
+		<Item name="Autoban type" type="numeric">0</Item>
+		<Item name="Autoban time" type="numeric">1</Item>
+		<Item name="Service name" type="string"/>
+		<Item name="Service display name" type="string"/>
+		<Item name="Enable HASH" type="numeric">0</Item>
+		<SpeedLimits>
+			<Download/>
+			<Upload/>
+		</SpeedLimits>
+	</Settings>
+	<Groups>
+		<Group Name="OS_2013">
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions/>
+			<SpeedLimits DlType="1" DlLimit="10" ServerDlLimitBypass="0" UlType="1" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</Group>
+	</Groups>
+	<Users>
+		<User Name="hyy">
+			<Option Name="Pass">31074fb61f328644c3bd638eabca37bf</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\hyy">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="m983010006">
+			<Option Name="Pass">cbf30e8c3dfbee9249ab0234e6b71cec</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\m983010006">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="yoyo52">
+			<Option Name="Pass">dd0167ccdfc728cc464579db75e02cbd</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\yoyo52">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="freddywu">
+			<Option Name="Pass">d72e370be883372cff467f45166218c5</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\freddywu">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="m973010143">
+			<Option Name="Pass">1c3e37cb68c397727d854eb1ff12c069</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\m973010143">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="OS_demo">
+			<Option Name="Pass">a2b255f18b787681b01c95006f6e8823</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\OS\OS_demo">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="jameskkbox">
+			<Option Name="Pass">5689e098e1ed6d1a0c877ebb9173b55c</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\OS2013\jameskkbox">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="nick8094">
+			<Option Name="Pass">5eb511ab32329843eddd534b8099e0c0</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\OS\nick8094">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="chengengjie">
+			<Option Name="Pass">889ad55766e378b684eb4846a9379b79</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\OS\chengengjie">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="roger921010">
+			<Option Name="Pass">cd830072ca812c703262268f11fb946d</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\OS\roger921010">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="1234567">
+			<Option Name="Pass">f0898af949a373e72a4f6a34b4de9090</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\OS\1234567">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="TA">
+			<Option Name="Pass">b9c09dcd5c910f848676e3648e325da8</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="callbb109">
+			<Option Name="Pass">3c086f596b4aee58e1d71b3626fefc87</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\OS\callbb109">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="123j678">
+			<Option Name="Pass">a555acd2ae47e79399db20fac9692344</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\OS\123j678">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="i034010009">
+			<Option Name="Pass">dc92a820fd91709cbcffb8b2927ac088</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2014\103\i034010009">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="I033090002">
+			<Option Name="Pass">3cef93f8f4aeb469a592e17fc8398c90</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\OS\I033090002">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="I033020006">
+			<Option Name="Pass">240269898c7440138408c17663bfe4bf</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\OS\I033020006">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="test2">
+			<Option Name="Pass">e10adc3949ba59abbe56e057f20f883e</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">0</Option>
+					<Option Name="FileAppend">0</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">0</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="CPTA">
+			<Option Name="Pass">e10adc3949ba59abbe56e057f20f883e</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\CPTA">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B033012033">
+			<Option Name="Pass">0b09aa5dc9de8e26c132c2550ba77c70</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B033012033">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B033012034">
+			<Option Name="Pass">9eb84c01eac544d522ae7811b0e4254f</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B033012034">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012004">
+			<Option Name="Pass">e225b4c8a0d05f0bf5bd03e0e8a1a76f</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012004">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012005">
+			<Option Name="Pass">5bb066613a29176133d5475a8585f555</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012005">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012006">
+			<Option Name="Pass">800843368b4ab4154051ec94ece9a76f</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012006">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012007">
+			<Option Name="Pass">15fca54de3cf137312db8926f34c3a0f</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012007">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012008">
+			<Option Name="Pass">8ad477125c8b1ad83af003c636380d90</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012008">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012029">
+			<Option Name="Pass">7857db67c99a34762401bd509516564c</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012029">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012030">
+			<Option Name="Pass">1947a80b1fc4013c97a17a6e1170a176</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012030">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012031">
+			<Option Name="Pass">8e05ad55323078d3d5bbafd46c03ca4c</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012031">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012032">
+			<Option Name="Pass">71cc85dd373cc4ee4e05d9c5f69283b2</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012032">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012033">
+			<Option Name="Pass">0187e5c6e1a4619245b5b2e2e37ff93d</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012033">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012034">
+			<Option Name="Pass">a925ff5ce647f2bd14066f958890c513</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012034">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012035">
+			<Option Name="Pass">bdf97a1818f6da21d1e0a5f64aea8c3c</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012035">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012036">
+			<Option Name="Pass">33045a674a17c3bc1aad3478d6397a80</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012036">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012037">
+			<Option Name="Pass">2ae4a74685b7c2b1ec045648199478df</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012037">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012038">
+			<Option Name="Pass">c47ebdf1830ab471b3c024f2be94e6f2</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012038">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012039">
+			<Option Name="Pass">305626ca2540106e9569030a0a0eca1c</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012039">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012040">
+			<Option Name="Pass">19fc9b6ed6a19317607efaeb67541942</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012040">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012041">
+			<Option Name="Pass">0e4befccc1a9e50bcb00bb1fb6936577</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012041">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012009">
+			<Option Name="Pass">22aebd1cef79ed0c4bda73694f821138</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012009">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012010">
+			<Option Name="Pass">b55243e2eb7055ec9f6412bb0b62c016</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012010">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012011">
+			<Option Name="Pass">aeb7039e691360a958b03a88b6741172</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012011">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012012">
+			<Option Name="Pass">db78be3002c59bbf8348d15814160bcb</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012012">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012013">
+			<Option Name="Pass">0e6365f2f45aedf549d228b96bec5b8c</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012013">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012014">
+			<Option Name="Pass">138252ba175ebaebdef075b8d9185944</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012014">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012015">
+			<Option Name="Pass">237f9017b03ad3b98e4fa75a439c2b80</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012015">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012016">
+			<Option Name="Pass">fbff06d4dff23f209d06b38985ad6ed5</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012016">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012017">
+			<Option Name="Pass">224c81da441cd9fbe45a3cadc1ae619d</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012017">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012018">
+			<Option Name="Pass">27e419fe805d5e66eccf0681c6b67e0a</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012018">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012042">
+			<Option Name="Pass">f0d346ca87c17584a44513580032f60d</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012042">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012043">
+			<Option Name="Pass">1746d8349efa1e3f61574a5f85e82d2c</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012043">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012044">
+			<Option Name="Pass">1f3721e3aafec513e7d764c557caa8a6</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012044">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012045">
+			<Option Name="Pass">c40c52ae25ece819e1b248cfd9636465</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012045">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012046">
+			<Option Name="Pass">29bb3d2809ca8986867b37468bc5861d</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012046">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012047">
+			<Option Name="Pass">1e429f273da0cb53b51f5f7a37970da6</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012047">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012048">
+			<Option Name="Pass">08f075e6d4003513f63de6769c209324</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012048">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012049">
+			<Option Name="Pass">c303cf2898532ff779d24c580b3a7794</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012049">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012050">
+			<Option Name="Pass">53bd1467e6d24f3e248a665f4062991e</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012050">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012051">
+			<Option Name="Pass">087397f82090d0de2cfcad9f8e70fa81</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012051">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012019">
+			<Option Name="Pass">919b377e76da713be1666fc28c429f8d</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012019">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012020">
+			<Option Name="Pass">df2f295ee5e2a9577a8e3ecd28b5b41f</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012020">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012021">
+			<Option Name="Pass">41733594bdf17751b2a5a20dbd6af148</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012021">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012022">
+			<Option Name="Pass">02faba35a9bb989ae2ae705a28da025c</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012022">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012023">
+			<Option Name="Pass">50d5be20a7f044914d7067b7ff0b690d</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012023">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012024">
+			<Option Name="Pass">887254d4123e1f8aadbef515ccff6791</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012024">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012025">
+			<Option Name="Pass">758ce4707b52c2c64f4b472bc3440cc3</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012025">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012026">
+			<Option Name="Pass">32b8dce0798b458fb80a5c9c6bc1d8a3</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012026">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012027">
+			<Option Name="Pass">5c327f72a605f8cf694414706fbe0af3</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012027">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012028">
+			<Option Name="Pass">0f6a44425784ad6cdf2f7f314ad7189f</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012028">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012052">
+			<Option Name="Pass">1185d4531f08ba66566e0e7ff5d7b902</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012052">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012053">
+			<Option Name="Pass">cad3e83cfe06db92cf69a5ad704c8748</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012053">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012054">
+			<Option Name="Pass">cd4ae916cfae68f0122c69175ecbe744</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012054">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012055">
+			<Option Name="Pass">6592623f52af6577badbeed1a8aeb5ca</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012055">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012056">
+			<Option Name="Pass">5cae06bba3475d85cadc16820c392be0</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012056">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012057">
+			<Option Name="Pass">1c793233ec858fbe090094de74d8e355</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012057">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012058">
+			<Option Name="Pass">4ed0eb4bca9a4403853f304928237b97</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012058">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012059">
+			<Option Name="Pass">2ef950db878541194ac731253bb9edf4</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012059">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012060">
+			<Option Name="Pass">28607c377d4ffd40d88aefe5adbe03b0</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012060">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012061">
+			<Option Name="Pass">0862bebcaf8c6f65ff2173c1e78c9fe8</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012061">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012001">
+			<Option Name="Pass">9aa6f46e1cc6f40cc8b2e206808cb297</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012001">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012002">
+			<Option Name="Pass">0091f8ad17f933a51ad4cb459087ac34</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012002">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043012003">
+			<Option Name="Pass">144988cbdff542e22bb0f4d34571482e</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043012003">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B023011058">
+			<Option Name="Pass">d16f93312f2ce29f7e8f0eb00b326e46</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B023011058">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B023012019">
+			<Option Name="Pass">a4adcdd3ffc6f57c55cbb04d2707c92e</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B023012019">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B023012033">
+			<Option Name="Pass">86d22896ce306e9d536372c9c80f7f8a</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B023012033">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B033011061">
+			<Option Name="Pass">c1dea25f806e25e09c59845af8661f0f</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B033011061">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B035090031">
+			<Option Name="Pass">6e70d0fcb5856e088bd7c7e20fa91766</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B035090031">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B012040036">
+			<Option Name="Pass">8295cab81f3101f48758e27a96e63cf5</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B012040036">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B024020049">
+			<Option Name="Pass">6ddeeee0ac7eeb39f30aafd6373799c4</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B024020049">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B041010038">
+			<Option Name="Pass">878a2bde615f995a1e6c6dad99b2df2b</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B041010038">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B042010023">
+			<Option Name="Pass">9bc61f58d84260f57c669f3f98eb1883</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B042010023">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B043090022">
+			<Option Name="Pass">8a2bd6dee320ee0df506aaa08d5a79ff</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B043090022">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B022030022">
+			<Option Name="Pass">66ac89c3fe331e98d0ce893e21a530cf</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B022030022">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B045090008">
+			<Option Name="Pass">c36db3d29b190cf715261251a504a60d</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B045090008">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B045090034">
+			<Option Name="Pass">08c90ca9c422b568fd945ac69813ea12</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B045090034">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B024020008">
+			<Option Name="Pass">214d7a509750e9e29a354f65b936d8b5</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B024020008">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B024020020">
+			<Option Name="Pass">46e2f8fe3c5d52182d4964efbb04dd30</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B024020020">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B024020029">
+			<Option Name="Pass">4cfd56dc7a327bb104c2d20ad45fe847</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B024020029">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+		<User Name="B034020019">
+			<Option Name="Pass">1b46136edf6b1b93b25765c20e45471d</Option>
+			<Option Name="Group"/>
+			<Option Name="Bypass server userlimit">0</Option>
+			<Option Name="User Limit">0</Option>
+			<Option Name="IP Limit">0</Option>
+			<Option Name="Enabled">1</Option>
+			<Option Name="Comments"/>
+			<Option Name="ForceSsl">0</Option>
+			<IpFilter>
+				<Disallowed/>
+				<Allowed/>
+			</IpFilter>
+			<Permissions>
+				<Permission Dir="D:\__LABWEB__\FTP\USER\CP2015\104\B034020019">
+					<Option Name="FileRead">1</Option>
+					<Option Name="FileWrite">1</Option>
+					<Option Name="FileDelete">1</Option>
+					<Option Name="FileAppend">1</Option>
+					<Option Name="DirCreate">1</Option>
+					<Option Name="DirDelete">1</Option>
+					<Option Name="DirList">1</Option>
+					<Option Name="DirSubdirs">1</Option>
+					<Option Name="IsHome">1</Option>
+					<Option Name="AutoCreate">0</Option>
+				</Permission>
+			</Permissions>
+			<SpeedLimits DlType="0" DlLimit="10" ServerDlLimitBypass="0" UlType="0" UlLimit="10" ServerUlLimitBypass="0">
+				<Download/>
+				<Upload/>
+			</SpeedLimits>
+		</User>
+	</Users>
+</FileZillaServer>
+
+
